@@ -1,0 +1,195 @@
+@use "./colors" as *;
+@use "./mixins" as *;
+
+
+.top-banner-section {
+    @include center;
+    min-height: 7vh;
+    margin-top: 0.3rem;
+    .top-banner {
+        @include center;
+        min-height: 7vh;
+        background: $purple;
+        p {
+            color: #fff;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.section-top {
+    min-height: 100vh;
+    .white-space {
+        background: #fff;
+        min-height: 2vh;
+    }
+    .bg-pink-container {
+        background: $purple;
+        padding: 1rem;
+        
+        .bg-pink-content {
+            background: $offBlack;
+            min-height: 52vh;
+            @include spacebetween;
+
+            .bg-col {
+                width: 50%;
+            }
+            .bg-pink-left {
+                h1 {
+                    font-size: 5rem;
+                    width: 50%;
+                    margin: 0 auto;
+                }
+                .white-text {
+                    color: #fff;
+                    margin-bottom: -2rem;
+                }
+                .purple-text {
+                    color: $purple;
+                }
+            }
+            .bg-pink-right {
+                color: #fff;
+                
+                h1 {
+                    font-size: 2.8rem;
+                    width: 85%;
+                    margin-bottom: 1rem;
+                }
+                p {
+                    width: 85%;
+                    line-height: 1.5rem;
+                    margin-bottom: 1rem;
+                }
+                .switch-btn {
+                   padding: 0.5rem 1rem;
+                   margin-bottom: 1rem;
+                   background: $purple;
+                   color: #fff;
+                   border: none;
+                   font-size: 1.2rem;
+                   cursor: pointer;
+                   &:hover {
+                    background: $darkPurple;
+                   }
+                }
+                a {
+                    color: #fff;
+
+                }
+            }
+        }
+    }
+}
+
+/*----------White Background Section-----------*/
+.white-bg-container {
+    min-height: 52vh;
+    background: #fff;
+    margin-top: 1rem;
+    @include spacebetween;
+    .white-col {
+        width: 50%;
+    }
+
+    .white-left {
+        h1 {
+            font-size: 2.8rem;
+            width: 52%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+        p {
+            width: 52%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+            line-height: 1.5rem;
+            a {
+                color: black;
+            }
+        }
+        .shop-btn {
+            margin-left: 11.8rem;
+            padding: 0.5rem 1rem;
+            font-size: 1.2rem;
+            background: $purple;
+            border: none;
+            color: #fff;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            &:hover {
+                background: $darkPurple;
+            }
+        }
+    }
+}
+
+/*--------------------Middle Banner---------------*/
+.middle-banner {
+min-height: 25vh;
+@include center;
+flex-direction: column;
+text-align: center;
+width: 80%;
+margin: 0 auto;
+color: #fff;
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+}
+
+/*------------------------Black Background Section--------*/
+.black-bg-container {
+    background-color: $offBlack;
+    min-height: 45vh;
+
+    @include spacebetween;
+
+    .black-col {
+        width: 50%;
+    }
+    .black-bg-left {
+       .content {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        h1 {
+            font-size: 6rem;
+            color: $purple;
+            
+        }
+
+        
+       }
+    }
+    .black-bg-right {
+        color: #fff;
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            width: 85%;
+            line-height: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .go-btn {
+            padding: 0.5rem 1rem;
+            background: $purple;
+            font-size: 1.2rem;
+            border: none;
+            color: #fff;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            &:hover {
+                background: $darkPurple;
+            }
+        }
+    }
+}
