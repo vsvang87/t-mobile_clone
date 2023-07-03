@@ -1,0 +1,203 @@
+@use "./colors" as *;
+@use "./mixins" as *;
+
+
+.middle-section {
+    .middle-content {
+        background: #fff;
+        padding: 1rem;
+        .black-bg {
+            @include center;
+            flex-direction: column;
+            background: $offBlack;
+            min-height: 48vh;
+            color: #fff;
+            text-align: center;
+
+            img {
+                margin-bottom: 1rem;
+            }
+            h1 {
+                font-size: 2.8rem;
+                margin-bottom: 1rem;
+            }
+            p {
+                margin-bottom: 1rem;
+            }
+            .check {
+                margin-bottom: 1rem;
+                button {
+                    border: none;
+                    background: $purple;
+                    padding: 0.5rem 1rem;
+                    font-size: 1.2rem;
+                    color: #fff;
+                    margin-right: 1rem;
+                    cursor: pointer;
+                    &:hover {
+                        background: $darkPurple;
+                    }
+                }
+            }
+               
+            a {
+                color: #fff;
+            }
+        }
+        /*----------------Gray Background Section----*/
+        .gray-bg-container {
+            background: $gray;
+            min-height: 55vh;
+            margin-top: 1rem;
+            @include center;
+            .gray-content {
+                @include spacebetween;
+                .gray-col {
+                    width: 50%;
+                }
+                .gray-left {
+                    text-align: center;
+                }
+                .gray-right {
+                    p {
+                        margin-bottom: 1rem;
+                        width: 85%;
+                        line-height: 1.5rem;
+                    }
+                    h1 {
+                        margin-bottom: 1rem;
+                        font-size: 2.8rem;
+                        width: 85%;
+                      
+                    }
+                    
+                    .shop-now {
+                       
+                        button {
+                            border: 1px solid black;
+                            background: #fff;
+                            padding: 0.5rem 1rem;
+                            font-size: 1.2rem;
+                            margin-right: 1.5rem;
+                            margin-bottom: 1rem;
+                            cursor: pointer;
+                            &:hover {
+                                background: $gray;
+                            }
+                        }
+                        a {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+         /*------------Pink Background Section-------------*/
+    .pink-bg-container {
+        min-height: 52vh;
+        margin-top: 1rem;
+       @include center;
+        .pink-bg-content {
+            min-height: 52vh;
+            background: $purple;
+            @include spacebetween;
+
+            .pink-col {
+                width: 50%;
+            }
+            .pink-bg-left {
+                color: #fff;
+
+                p {
+                    width: 52%;
+                    margin: 0 auto;
+                    margin-bottom: 1rem;
+                    line-height: 1.5rem;
+                }
+                .title-div {
+                    margin-bottom: 1rem;
+                    h1 {
+                        font-size: 2.8rem;
+                        width: 52%;
+                        margin: 0 auto;
+                        
+                    }
+                }
+                
+                a {
+                    color: #fff;
+                }
+                .shop-btn {
+                    margin-left: 11.8rem;
+                    padding: 0.5rem 1rem;
+                    font-size: 1.2rem;
+                    background: #fff;
+                    border: 1px solid black;
+                    margin-bottom: 1rem;
+                    cursor: pointer;
+                    &:hover {
+                        background: $gray;
+                    }
+                }
+            }
+            .pink-bg-right {
+                text-align: center;
+            }
+
+        }
+        }
+
+
+        .galaxy-container {
+            margin-top: 1rem;
+            min-height: 52vh;
+            .galaxy-content {
+                min-height: 52vh;
+                background: linear-gradient(to right, $purple, $darkGray, $offBlack);
+                @include spacebetween;
+                color: #fff;
+                .galaxy-col {
+                    width: 50%;
+                }
+                .galaxy-left {
+                    text-align: right;
+                }
+                .galaxy-right {
+                   
+                    p {
+                        margin-bottom: 1rem;
+                        width: 75%;
+                    }
+                    h1 {
+                        font-size: 2.8rem;
+                        width: 75%;
+                        margin-bottom: 1rem;
+                    }
+                    h2 {
+                        margin-bottom: 1rem;
+                    }
+                    a {
+                        color: #fff;
+                    }
+                    button {
+                       
+                        padding: 0.5rem 1rem;
+                        font-size: 1.2rem;
+                        background: #fff;
+                        border: 1px solid black;
+                        margin-bottom: 1rem;
+                        cursor: pointer;
+                        &:hover {
+                            background: $gray;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+   
+    
+}
+

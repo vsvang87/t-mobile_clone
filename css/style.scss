@@ -2,6 +2,8 @@
 @use "./mixins";
 @use "./navbar";
 @use "./hero";
+@use "./midsection";
+@use "./bottomsection";
 
 * {
     padding: 0;
