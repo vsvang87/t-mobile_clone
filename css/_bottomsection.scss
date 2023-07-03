@@ -1,2 +1,62 @@
 @use "./colors" as *;
 @use "./mixins" as *;
+
+
+.bottom-section {
+    .bottom-content {
+        background: #fff;
+        .best-selling {
+            padding: 1rem 2rem;
+            min-height: 15vh;
+            @include alignflexstart;
+            .content {
+                min-height: 15vh;
+                h1 {
+                    font-size: 2.8rem;
+                    margin-bottom: 1rem;
+                }
+                button {
+                    padding: 0.5rem 1rem;
+                    border: 1px solid black;
+                    font-size: 1.2rem;
+                    background: #fff;
+                    cursor: pointer;
+                    &:hover {
+                        background: $gray;
+                    }
+                }
+            }
+        }
+        /*-----------Phone Selections-----------*/
+        .phone-container {
+            min-height: 45vh;
+            @include center;
+            .phone-content {
+                padding: 1rem;
+               @include spacebetween;
+                width: 100%;
+                .phone-col {
+                    width: 25%;
+                    text-align: center;
+                    img {
+                        width: 30%;
+                        margin-bottom: 2rem;
+                    }
+                    h2 {
+                        margin-bottom: 1rem;
+                    }
+                    button {
+                        padding: 0.5rem 1rem;
+                    border: 1px solid black;
+                    font-size: 1.2rem;
+                    background: #fff;
+                    cursor: pointer;
+                    &:hover {
+                        background: $gray;
+                    }
+                    }
+                }
+            }
+        }
+    }
+}

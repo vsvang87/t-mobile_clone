@@ -557,6 +557,87 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   background: rgb(236, 236, 236);
 }
 
+.bottom-section .bottom-content {
+  background: #fff;
+  /*-----------Phone Selections-----------*/
+}
+.bottom-section .bottom-content .best-selling {
+  padding: 1rem 2rem;
+  min-height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.bottom-section .bottom-content .best-selling .content {
+  min-height: 15vh;
+}
+.bottom-section .bottom-content .best-selling .content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+.bottom-section .bottom-content .best-selling .content button {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  background: #fff;
+  cursor: pointer;
+}
+.bottom-section .bottom-content .best-selling .content button:hover {
+  background: rgb(236, 236, 236);
+}
+.bottom-section .bottom-content .phone-container {
+  min-height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bottom-section .bottom-content .phone-container .phone-content {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.bottom-section .bottom-content .phone-container .phone-content .phone-col {
+  width: 25%;
+  text-align: center;
+}
+.bottom-section .bottom-content .phone-container .phone-content .phone-col img {
+  width: 30%;
+  margin-bottom: 2rem;
+}
+.bottom-section .bottom-content .phone-container .phone-content .phone-col h2 {
+  margin-bottom: 1rem;
+}
+.bottom-section .bottom-content .phone-container .phone-content .phone-col button {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  background: #fff;
+  cursor: pointer;
+}
+.bottom-section .bottom-content .phone-container .phone-content .phone-col button:hover {
+  background: rgb(236, 236, 236);
+}
+
 * {
   padding: 0;
   margin: 0;
