@@ -3,20 +3,89 @@
 
 
 .bottom-2-section {
- 
-    min-height: 55vh;
-    padding: 0 1rem;
+    min-height: 80vh;
     .container {
         width: min(90%, 100rem);
         margin-inline: auto;
-        @include spacebetween;
-       
-
-        .bottom-col {
-            width: 50%;
-            min-height: 55vh;
-            background: $purple;
+        .bottom-content {
+            @include spacebetween;
+            gap: 1rem;
+            background: #fff;
+            padding: 0 1rem 1rem 1rem;
+            min-height: 80vh;
+            .bottom-col {
+                width: 50%;
+                min-height: 80vh;
+                background: $purple;
+            }
+            .two-content-left {
+                background-image: url(/image/t-mobile-bg.webp);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: cover;
+                color: #fff;
+                text-align: center;
+                @include center;
+                flex-direction: column;
+                h1 {
+                    font-size: 2.8rem;
+                    margin-bottom: 1rem;
+                }
+                p {
+                    margin-bottom: 1rem;
+                }
+                button {
+                    padding: 0.5rem 1rem;
+                    border: 1px solid #fff;
+                    color: #fff;
+                    background: transparent;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                    margin-bottom: 1rem;
+                    
+                }
+                a {
+                    color: #fff;
+                }
+            }
+            .two-content-right {
+                @include center;
+                flex-direction: column;
+                text-align: center;
+                color: #fff;
+                img {
+                    width: 50%;
+                    margin-bottom: 1rem;
+                }
+                h1 {
+                    font-size: 2rem;
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-bottom: 1rem;
+                }
+                p {
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-bottom: 1rem;
+                }
+                button {
+                    padding: 0.5rem 1rem;
+                    border: 1px solid #fff;
+                    color: #fff;
+                    background: transparent;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                    margin-bottom: 1rem;
+                   
+                }
+                a {
+                    color: #fff;
+                }
+            }
             
         }
+
+
+        
     }
 }

@@ -1,0 +1,37 @@
+@use "./colors" as *;
+@use "./mixins" as *;
+
+footer {
+    min-height: 100vh;
+    background: $offBlack;
+    .footer-content {
+        padding: 3rem 0;
+        color: #fff;
+        .inner-content {
+            margin-bottom: 2rem;
+            .inner-left {
+                @include spacebetween;
+                .icons {
+                    @include spacebetween;
+                    
+                    a {
+                        color: #fff;
+                        padding: 0 1rem;
+                        font-size: 1.5rem;
+                    }
+                }
+                .inner-right {
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        padding-left: 2rem;
+                    }
+                }
+            }
+        }
+        .bottom-inner-content {
+            @include spacebetweenAlignStart;
+            
+        }
+    }
+}
