@@ -10,8 +10,10 @@
         @include center;
         min-height: 7vh;
         background: $purple;
+        padding: 1rem;
         p {
             color: #fff;
+            line-height: 1.8rem;
             a {
                 color: #fff;
             }
@@ -32,16 +34,33 @@
         .bg-pink-content {
             background: $offBlack;
             min-height: 52vh;
+            padding: 1rem 0;
             @include spacebetween;
+            flex-direction: column;
+            @include media1445px {
+                @include spacebetween;
+                flex-direction: row;
+            }
+            
 
             .bg-col {
-                width: 50%;
+                
+                width: 100%;
+                @include media1445px {
+                    width: 50%;
+                }
             }
             .bg-pink-left {
+                text-align: center;
                 h1 {
+                    font-size: 3rem;
+                    line-height: 5rem;
+                    @include media1445px {
                     font-size: 5rem;
                     width: 50%;
                     margin: 0 auto;
+                    line-height: normal;
+                    }
                 }
                 .white-text {
                     color: #fff;
@@ -53,16 +72,29 @@
             }
             .bg-pink-right {
                 color: #fff;
-                
+                text-align: center;
+                @include media1445px {
+                    text-align: left;
+                }
                 h1 {
-                    font-size: 2.8rem;
-                    width: 85%;
+                    font-size: 2rem;
                     margin-bottom: 1rem;
+                    line-height: 2.3rem;
+                    @include media1445px {
+                        line-height: normal;
+                        width: 85%;
+                    }
                 }
                 p {
-                    width: 85%;
                     line-height: 1.5rem;
+                    width: 85%;
+                    margin: 0 auto;
                     margin-bottom: 1rem;
+                    @include media1445px {
+                        width: 85%;
+                        margin: 0;
+                        margin-bottom: 1rem;
+                    }
                 }
                 .switch-btn {
                    padding: 0.5rem 1rem;
@@ -90,39 +122,84 @@
     min-height: 52vh;
     background: #fff;
     margin-top: 1rem;
+    padding: 1rem 0;
     @include spacebetween;
+    flex-direction: column;
+    @include media1445px {
+        @include spacebetween;
+        flex-direction: row;
+    }
+    
     .white-col {
-        width: 50%;
+        width: 100%;
+        @include media1445px {
+            width: 50%;
+            
+        }
+    }
+    .white-right {
+        text-align: center;
+        img {
+            width: 100%;
+            @include media1445px {
+                width: 50%;
+            }
+        }
     }
 
     .white-left {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        @include media1445px {
+            text-align: left;
+        }
         h1 {
+            width: 90%;
+            font-size: 2rem;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+            @include media1445px {
             font-size: 2.8rem;
             width: 52%;
             margin: 0 auto;
             margin-bottom: 1rem;
+            }
         }
         p {
-            width: 52%;
+            width: 80%;
             margin: 0 auto;
             margin-bottom: 1rem;
+
+
+            @include media1445px {
+            width: 52%;
+            margin: 0 auto;
             line-height: 1.5rem;
+            margin-bottom: 1rem;
+            }
             a {
                 color: black;
             }
+            
         }
-        .shop-btn {
-            margin-left: 11.8rem;
-            padding: 0.5rem 1rem;
-            font-size: 1.2rem;
-            background: $purple;
-            border: none;
-            color: #fff;
-            margin-bottom: 1rem;
-            cursor: pointer;
-            &:hover {
-                background: $darkPurple;
+        .btn-div {
+            @include media1445px {
+                width: 52%;
+                margin: 0 auto;
             }
+            .shop-btn {
+                padding: 0.5rem 1rem;
+                font-size: 1.2rem;
+                background: $purple;
+                border: none;
+                color: #fff;
+                margin-bottom: 1rem;
+                cursor: pointer;
+                &:hover {
+                    background: $darkPurple;
+                }
+        }
         }
     }
 }
@@ -136,10 +213,15 @@ text-align: center;
 width: 80%;
 margin: 0 auto;
 color: #fff;
+padding: 2rem 0;
 
 h1 {
-    font-size: 2.8rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    @include media1445px {
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+    }
 }
 }
 
@@ -147,37 +229,61 @@ h1 {
 .black-bg-container {
     background-color: $offBlack;
     min-height: 45vh;
-
+    padding: 2rem 0;
     @include spacebetween;
+    flex-direction: column;
+    @include media1445px {
+        flex-direction: row;
+    }
 
     .black-col {
-        width: 50%;
+        width: 100%;
+        @include media1445px {
+            width: 50%;
+        }
     }
     .black-bg-left {
        .content {
-        width: 50%;
-        margin: 0 auto;
+        width: 100%;
         text-align: center;
         color: #fff;
+        margin-bottom: 1rem;
         h1 {
-            font-size: 6rem;
+            font-size: 4rem;
             color: $purple;
+            @include media1445px {
+                font-size: 6rem;
+            }
             
         }
-
+        @include media1445px {
+            width: 50%;
+            margin: 0 auto;
+        }
         
        }
     }
     .black-bg-right {
         color: #fff;
+        text-align: center;
+        @include media1445px {
+            text-align: left;
+        }
         h1 {
             font-size: 2.8rem;
             margin-bottom: 1rem;
         }
         p {
+           
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+            @include media1445px {
             width: 85%;
             line-height: 1.5rem;
+            margin: 0;
             margin-bottom: 1rem;
+            }
         }
         .go-btn {
             padding: 0.5rem 1rem;

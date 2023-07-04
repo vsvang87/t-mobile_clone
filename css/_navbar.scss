@@ -6,7 +6,10 @@ header {
     top: 0;
     .top-nav {
         background: $gray;
-
+        display: none;
+        @include media1445px {
+            display: block;
+        }
         ul {
             @include alignflexstart;
             li {
@@ -26,12 +29,17 @@ header {
         box-shadow: 5px 5px 8px 0 rgba($color: #000000, $alpha: 0.1);
         padding: .3rem 0;
         background: #fff;
+       
         .navbar-content {
             @include spacebetween;
             .nav-left {
                 @include spacebetween;
                 .left-link {
-                    @include spacebetween;
+                   display: none;
+                    @include media1445px {
+                        display: inline;
+                        @include spacebetween;
+                    }
                     li {
                         list-style-type: none;
                         padding: 0 1rem;
@@ -43,9 +51,43 @@ header {
                     }
                 }
             }
+           
+
             .nav-right {
+                position: relative;
+                .mobile-nav {
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2rem;
+                    width: 200px;
+                    right: -2.6rem;
+                    top: -0.5rem;
+                    @include media1445px {
+                        display: none;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                        i {
+                            padding-right: 0.5rem;
+                        }
+                    }
+                    button {
+                        background: transparent;
+                        border: none;
+                        font-size: 1.2rem;
+                        cursor: pointer;
+                    }
+                }
                 .right-link {
-                    @include spacebetween;
+                    display: none;
+                    @include media1445px {
+                        display: inline;
+                        @include spacebetween;
+                    }
                     li {
                         list-style-type: none;
                         padding: 0 1rem;
