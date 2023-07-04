@@ -592,7 +592,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   background: rgb(236, 236, 236);
 }
 .bottom-section .bottom-content .phone-container {
-  min-height: 45vh;
+  min-height: 48vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -604,6 +604,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
           align-items: center;
 }
 .bottom-section .bottom-content .phone-container .phone-content {
+  min-height: 48vh;
   padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -622,7 +623,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 }
 .bottom-section .bottom-content .phone-container .phone-content .phone-col img {
   width: 30%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .bottom-section .bottom-content .phone-container .phone-content .phone-col h2 {
   margin-bottom: 1rem;
@@ -636,6 +637,170 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 }
 .bottom-section .bottom-content .phone-container .phone-content .phone-col button:hover {
   background: rgb(236, 236, 236);
+}
+.bottom-section .bottom-content .razr-container {
+  padding: 1rem;
+  min-height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bottom-section .bottom-content .razr-container .razr-content {
+  background: rgb(236, 236, 236);
+  min-height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bottom-section .bottom-content .razr-container .razr-content .razr-col {
+  width: 50%;
+}
+.bottom-section .bottom-content .razr-container .razr-content .razr-left {
+  text-align: center;
+}
+.bottom-section .bottom-content .razr-container .razr-content .razr-right img {
+  margin-bottom: 1rem;
+}
+.bottom-section .bottom-content .razr-container .razr-content .razr-right h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.bottom-section .bottom-content .razr-container .razr-content .razr-right p {
+  line-height: 1.5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.bottom-section .bottom-content .razr-container .razr-content .razr-right button {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgb(209, 38, 118);
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+.bottom-section .bottom-content .razr-container .razr-content .razr-right button:hover {
+  background: rgb(153, 0, 71);
+}
+.bottom-section .bottom-content .razr-container .razr-content .razr-right a {
+  color: black;
+}
+.bottom-section .bottom-content .go5g-container {
+  padding: 0 1rem;
+  min-height: 30vh;
+}
+.bottom-section .bottom-content .go5g-container .go5g-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  min-height: 30vh;
+  background: rgb(209, 38, 118);
+  text-align: center;
+}
+.bottom-section .bottom-content .go5g-container .go5g-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.bottom-section .bottom-content .go5g-container .go5g-content p {
+  margin-bottom: 1rem;
+}
+.bottom-section .bottom-content .go5g-container .go5g-content p a {
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.bottom-section .bottom-content .go5g-container .go5g-content small a {
+  color: #fff;
+}
+.bottom-section .bottom-content .free-phone-container {
+  padding: 1rem;
+  min-height: 55vh;
+}
+.bottom-section .bottom-content .free-phone-container .free-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 55vh;
+  background: rgb(209, 38, 118);
+  gap: 2rem;
+  color: #fff;
+}
+.bottom-section .bottom-content .free-phone-container .free-content .free-col {
+  width: 50%;
+}
+.bottom-section .bottom-content .free-phone-container .free-content .free-left {
+  text-align: right;
+}
+.bottom-section .bottom-content .free-phone-container .free-content .free-right .title {
+  font-size: 2.5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.bottom-section .bottom-content .free-phone-container .free-content .free-right p {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+.bottom-section .bottom-content .free-phone-container .free-content .free-right button {
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.bottom-section .bottom-content .free-phone-container .free-content .free-right button:hover {
+  background: rgb(236, 236, 236);
+}
+.bottom-section .bottom-content .free-phone-container .free-content .free-right a {
+  color: #fff;
+}
+
+.bottom-2-section {
+  min-height: 55vh;
+  padding: 0 1rem;
+}
+.bottom-2-section .container {
+  width: min(90%, 100rem);
+  margin-inline: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bottom-2-section .container .bottom-col {
+  width: 50%;
+  min-height: 55vh;
+  background: rgb(209, 38, 118);
 }
 
 * {

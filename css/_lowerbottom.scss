@@ -1,0 +1,22 @@
+@use "./colors" as *;
+@use "./mixins" as *;
+
+
+.bottom-2-section {
+ 
+    min-height: 55vh;
+    padding: 0 1rem;
+    .container {
+        width: min(90%, 100rem);
+        margin-inline: auto;
+        @include spacebetween;
+       
+
+        .bottom-col {
+            width: 50%;
+            min-height: 55vh;
+            background: $purple;
+            
+        }
+    }
+}

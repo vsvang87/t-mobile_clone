@@ -29,9 +29,10 @@
         }
         /*-----------Phone Selections-----------*/
         .phone-container {
-            min-height: 45vh;
+            min-height: 48vh;
             @include center;
             .phone-content {
+                min-height: 48vh;
                 padding: 1rem;
                @include spacebetween;
                 width: 100%;
@@ -40,7 +41,7 @@
                     text-align: center;
                     img {
                         width: 30%;
-                        margin-bottom: 2rem;
+                        margin-bottom: 3rem;
                     }
                     h2 {
                         margin-bottom: 1rem;
@@ -58,5 +59,126 @@
                 }
             }
         }
+        .razr-container {
+            padding: 1rem;
+            min-height: 55vh;
+            @include center;
+            .razr-content {
+                background: $gray;
+                min-height: 55vh;
+                @include spacebetween;
+
+                .razr-col {
+                    width: 50%;
+                }
+
+                .razr-left {
+                    text-align: center;
+                }
+
+                .razr-right {
+                    img {
+                        margin-bottom: 1rem;
+                    }
+                    h1 {
+                        font-size: 4rem;
+                        margin-bottom: 1rem;
+                    }
+                    p {
+                        line-height: 1.5rem;
+                        width: 80%;
+                        margin-bottom: 1rem;
+                    }
+                    button {
+                        margin-bottom: 1rem;
+                        padding: 0.5rem 1rem;
+                        background: $purple;
+                        border: none;
+                        font-size: 1.2rem;
+                        color: #fff;
+                        cursor: pointer;
+                        &:hover {
+                            background: $darkPurple;
+                        }
+                    }
+                    a {
+                        color: black;
+                    }
+                }
+            }
+        }
+        .go5g-container {
+            padding: 0 1rem;
+            min-height: 30vh;
+           
+            .go5g-content {
+                @include center;
+                color: #fff;
+                min-height: 30vh;
+                background: $purple;
+                text-align: center;
+                h1 {
+                    font-size: 2rem;
+                    margin-bottom: 1rem;
+                }
+                p {
+                    margin-bottom: 1rem; 
+                    a {
+                        color: #fff;
+                        font-size: 1.1rem;
+                        text-decoration: none;
+                    } 
+                }
+                small {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .free-phone-container {
+            padding: 1rem;
+            min-height: 55vh;
+            .free-content {
+                @include spacebetween;
+                min-height: 55vh;
+                background: $purple;
+                gap: 2rem;
+                color: #fff;
+                .free-col {
+                    width: 50%;
+                }
+                .free-left {
+                    text-align: right;
+                }
+                .free-right {
+                  
+                    .title {
+                        font-size: 2.5rem;
+                        width: 80%;
+                        margin-bottom: 1rem;
+                    }
+                    p {
+                        margin-bottom: 1rem;
+                        width: 80%;
+                    }
+                    button {
+                        padding: 0.5rem 1rem;
+                        background: #fff;
+                        border: 1px solid black;
+                        font-size: 1.2rem;
+                        cursor: pointer;
+                        margin-bottom: 1rem;
+                        &:hover {
+                            background: $gray;
+                        }
+                    }
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        
     }
 }
