@@ -15,6 +15,7 @@
 body {
     scroll-behavior: smooth;
     background: $gray;
+    overflow-x: hidden;
 }
 .wrapper {
     width: min(90%, 100rem);

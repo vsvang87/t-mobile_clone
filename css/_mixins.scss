@@ -26,3 +26,8 @@
         @content;
     }
 }
+@mixin media580px {
+    @media (min-width: 580px) {
+        @content;
+    }
+}

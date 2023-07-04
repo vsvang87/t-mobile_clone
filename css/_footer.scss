@@ -4,30 +4,49 @@
 footer {
     min-height: 80vh;
     background: $offBlack;
+    
     .footer-content {
         padding: 3rem 0;
         color: #fff;
+       
         .inner-content {
             margin-bottom: 2rem;
             .inner-left {
-                @include spacebetween;
+                @include spacebetweenAlignStart;
+                flex-direction: column;
+                text-align: left;
+                @include media1445px {
+                    @include alignflexstart;
+                }
+
                 .icons {
                     @include spacebetween;
-                    
+                    padding: 1rem 0;
+                    @include media1445px {
+                        padding: 0;
+                        @include spacebetween;
+                    }
                     a {
                         color: #fff;
-                        padding: 0 1rem;
+                        padding: 0 1rem 0 0;
                         font-size: 1.5rem;
                         &:hover {
                             color: $purple;
                         }
+                        @include media1445px{
+                            padding: 0 1rem;
+                        }
                     }
                 }
                 .inner-right {
+                    
                     a {
                         color: #fff;
                         text-decoration: none;
-                        padding-left: 2rem;
+                        padding-right: 2rem;
+                        @include media1445px {
+                            padding-left: 2rem;
+                        }
                     }
                 }
             }
@@ -36,19 +55,32 @@ footer {
             display: flex;
             justify-content: flex-start;
             align-items: flex-start;
-            gap: 4rem;
+            flex-direction: column;
+            
 
+            @include media1445px {
+                flex-direction: row;
+                gap: 4rem;
+            }
             .inner-col {
                
                 ul {
+                    
                     margin-bottom: 1rem;
+
+                    
                     p {
                         padding-bottom: 1rem;
                         font-weight: 700;
                     }
                     li {
+                        display: none;
                         list-style-type: none;
                         padding-bottom: 1rem;
+                        @include media1445px {
+                            display: block;
+
+                        }
                         a {
                             color: #fff;
                             text-decoration: none;
@@ -64,12 +96,24 @@ footer {
         @include center;
         .footer-bottom-content {
             @include spacebetween;
-
+            flex-direction: column;
+            @include media1445px {
+                flex-direction: row;
+            }
             .bottom-inner-content {
                 display: flex;
-
+                flex-direction: column;
+                padding: 1rem 0;
+                @include media1445px {
+                    flex-direction: row;
+                }
                 img {
-                    padding-right: 1rem;
+                   text-align: center;
+                   width: 20%;
+                    @include media1445px {
+                        padding-right: 1rem;
+                        width: 20%;
+                    }
                 }
                 .inner-content {
                     padding: 0.7rem 0;
@@ -84,6 +128,7 @@ footer {
                 
             }
             .social-icons {
+                
                 a {
                     color: #fff;
                     padding-left: 1rem;

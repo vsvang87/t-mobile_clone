@@ -9,14 +9,23 @@
         margin-inline: auto;
         .bottom-content {
             @include spacebetween;
+            flex-direction: column;
             gap: 1rem;
             background: #fff;
             padding: 0 1rem 1rem 1rem;
             min-height: 80vh;
+
+            @include media1445px {
+                flex-direction: row;
+            }
             .bottom-col {
-                width: 50%;
+                width: 100%;
                 min-height: 80vh;
                 background: $purple;
+
+                @include media1445px {
+                    width: 50%;
+                }
             }
             .two-content-left {
                 background-image: url(/image/t-mobile-bg.webp);
@@ -54,8 +63,11 @@
                 text-align: center;
                 color: #fff;
                 img {
-                    width: 50%;
+                    width: 100%;
                     margin-bottom: 1rem;
+                    @include media1445px {
+                        width: 50%;
+                    }
                 }
                 h1 {
                     font-size: 2rem;
