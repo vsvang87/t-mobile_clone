@@ -1556,12 +1556,16 @@ footer .footer-content .inner-content .inner-left {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 footer .footer-content .inner-content .inner-left .icons {
@@ -1714,13 +1718,8 @@ footer .footer-bottom .footer-bottom-content .bottom-inner-content {
 }
 footer .footer-bottom .footer-bottom-content .bottom-inner-content img {
   text-align: center;
-  width: 20%;
-}
-@media (min-width: 1445px) {
-  footer .footer-bottom .footer-bottom-content .bottom-inner-content img {
-    padding-right: 1rem;
-    width: 20%;
-  }
+  padding-right: 1rem;
+  width: 60px;
 }
 footer .footer-bottom .footer-bottom-content .bottom-inner-content .inner-content {
   padding: 0.7rem 0;

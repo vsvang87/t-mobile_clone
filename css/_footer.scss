@@ -16,7 +16,8 @@ footer {
                 flex-direction: column;
                 text-align: left;
                 @include media1445px {
-                    @include alignflexstart;
+                    @include spacebetween;
+                    flex-direction: row;
                 }
 
                 .icons {
@@ -109,11 +110,9 @@ footer {
                 }
                 img {
                    text-align: center;
-                   width: 20%;
-                    @include media1445px {
-                        padding-right: 1rem;
-                        width: 20%;
-                    }
+                   padding-right: 1rem;  
+                   width: 60px;
+                  
                 }
                 .inner-content {
                     padding: 0.7rem 0;
