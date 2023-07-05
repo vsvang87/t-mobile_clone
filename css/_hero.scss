@@ -139,8 +139,11 @@
     }
     .white-right {
         text-align: center;
+        @include media1445px {
+            text-align: left;
+        }
         img {
-            width: 100%;
+            width: 50%;
             @include media1445px {
                 width: 50%;
             }
@@ -148,8 +151,7 @@
     }
 
     .white-left {
-        width: 80%;
-        margin: 0 auto;
+        padding: 2rem;
         text-align: center;
         @include media1445px {
             text-align: left;

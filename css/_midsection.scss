@@ -233,7 +233,7 @@
             .pink-bg-right {
                 text-align: center;
                 img {
-                    width: 100%;
+                    width: 50%;
                     @include media1445px {
                         width: 50%;
                     }
@@ -270,7 +270,7 @@
                         text-align: right;
                     }
                     img {
-                        width: 100%;
+                        width: 50%;
                         @include media1445px {
                             width: 50%;
                         }

@@ -7,7 +7,7 @@ header .top-nav {
   background: rgb(236, 236, 236);
   display: none;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1450px) {
   header .top-nav {
     display: block;
   }
@@ -65,7 +65,7 @@ header nav .navbar-content .nav-left {
 header nav .navbar-content .nav-left .left-link {
   display: none;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1450px) {
   header nav .navbar-content .nav-left .left-link {
     display: inline;
     display: -webkit-box;
@@ -106,7 +106,7 @@ header nav .navbar-content .nav-right .mobile-nav {
   right: -2.6rem;
   top: -0.5rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1450px) {
   header nav .navbar-content .nav-right .mobile-nav {
     display: none;
   }
@@ -128,7 +128,7 @@ header nav .navbar-content .nav-right .mobile-nav button {
 header nav .navbar-content .nav-right .right-link {
   display: none;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1450px) {
   header nav .navbar-content .nav-right .right-link {
     display: inline;
     display: -webkit-box;
@@ -227,7 +227,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .section-top .bg-pink-container .bg-pink-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -247,7 +247,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .section-top .bg-pink-container .bg-pink-content .bg-col {
   width: 100%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .section-top .bg-pink-container .bg-pink-content .bg-col {
     width: 50%;
   }
@@ -259,7 +259,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   font-size: 3rem;
   line-height: 5rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .section-top .bg-pink-container .bg-pink-content .bg-pink-left h1 {
     font-size: 5rem;
     width: 50%;
@@ -278,7 +278,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   color: #fff;
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .section-top .bg-pink-container .bg-pink-content .bg-pink-right {
     text-align: left;
   }
@@ -288,7 +288,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin-bottom: 1rem;
   line-height: 2.3rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .section-top .bg-pink-container .bg-pink-content .bg-pink-right h1 {
     line-height: normal;
     width: 85%;
@@ -300,7 +300,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .section-top .bg-pink-container .bg-pink-content .bg-pink-right p {
     width: 85%;
     margin: 0;
@@ -343,7 +343,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .white-bg-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -363,7 +363,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .white-bg-container .white-col {
   width: 100%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .white-bg-container .white-col {
     width: 50%;
   }
@@ -371,20 +371,24 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .white-bg-container .white-right {
   text-align: center;
 }
-.white-bg-container .white-right img {
-  width: 100%;
+@media (min-width: 1140px) {
+  .white-bg-container .white-right {
+    text-align: left;
+  }
 }
-@media (min-width: 1445px) {
+.white-bg-container .white-right img {
+  width: 50%;
+}
+@media (min-width: 1140px) {
   .white-bg-container .white-right img {
     width: 50%;
   }
 }
 .white-bg-container .white-left {
-  width: 80%;
-  margin: 0 auto;
+  padding: 2rem;
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .white-bg-container .white-left {
     text-align: left;
   }
@@ -395,7 +399,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .white-bg-container .white-left h1 {
     font-size: 2.8rem;
     width: 52%;
@@ -408,7 +412,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .white-bg-container .white-left p {
     width: 52%;
     margin: 0 auto;
@@ -419,7 +423,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .white-bg-container .white-left p a {
   color: black;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .white-bg-container .white-left .btn-div {
     width: 52%;
     margin: 0 auto;
@@ -464,7 +468,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-banner h1 {
     font-size: 2.8rem;
     margin-bottom: 1rem;
@@ -490,7 +494,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .black-bg-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -501,7 +505,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .black-bg-container .black-col {
   width: 100%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .black-bg-container .black-col {
     width: 50%;
   }
@@ -516,12 +520,12 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   font-size: 4rem;
   color: rgb(209, 38, 118);
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .black-bg-container .black-bg-left .content h1 {
     font-size: 6rem;
   }
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .black-bg-container .black-bg-left .content {
     width: 50%;
     margin: 0 auto;
@@ -531,7 +535,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   color: #fff;
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .black-bg-container .black-bg-right {
     text-align: left;
   }
@@ -545,7 +549,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .black-bg-container .black-bg-right p {
     width: 85%;
     line-height: 1.5rem;
@@ -600,7 +604,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   line-height: 2.2rem;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .black-bg h1 {
     font-size: 2.8rem;
     margin-bottom: 1rem;
@@ -625,7 +629,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
           flex-direction: column;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .black-bg .check {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -646,7 +650,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .middle-section .middle-content .black-bg .check button:hover {
   background: rgb(153, 0, 71);
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .black-bg .check button {
     margin-bottom: 0;
   }
@@ -684,7 +688,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
           flex-direction: column;
   padding: 2rem 0;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .gray-bg-container .gray-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -695,7 +699,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .middle-section .middle-content .gray-bg-container .gray-content .gray-col {
   width: 100%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .gray-bg-container .gray-content .gray-col {
     width: 50%;
   }
@@ -706,7 +710,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .middle-section .middle-content .gray-bg-container .gray-content .gray-right {
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .gray-bg-container .gray-content .gray-right {
     text-align: left;
   }
@@ -716,7 +720,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .gray-bg-container .gray-content .gray-right p {
     margin: 0;
     margin-bottom: 1rem;
@@ -730,7 +734,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .gray-bg-container .gray-content .gray-right h1 {
     margin-bottom: 1rem;
     margin: 0;
@@ -754,7 +758,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .gray-bg-container .gray-content .gray-right .shop-now .btn-div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -817,7 +821,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .pink-bg-container .pink-bg-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -828,7 +832,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-col {
   width: 100%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-col {
     width: 50%;
   }
@@ -837,7 +841,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   color: #fff;
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-bg-left {
     text-align: left;
   }
@@ -847,7 +851,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-bg-left p {
     width: 52%;
     margin: 0 auto;
@@ -861,7 +865,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-bg-left .title-div h1 {
   font-size: 2rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-bg-left .title-div h1 {
     width: 52%;
     margin: 0 auto;
@@ -871,7 +875,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-bg-left a {
   color: #fff;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-bg-left .btn-div {
     width: 52%;
     margin: 0 auto;
@@ -892,9 +896,9 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   text-align: center;
 }
 .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-bg-right img {
-  width: 100%;
+  width: 50%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .pink-bg-container .pink-bg-content .pink-bg-right img {
     width: 50%;
   }
@@ -923,7 +927,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
           flex-direction: column;
   color: #fff;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .galaxy-container .galaxy-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -934,7 +938,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-col {
   width: 100%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-col {
     width: 50%;
   }
@@ -942,15 +946,15 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-left {
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-left {
     text-align: right;
   }
 }
 .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-left img {
-  width: 100%;
+  width: 50%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-left img {
     width: 50%;
   }
@@ -958,7 +962,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-right {
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-right {
     text-align: left;
   }
@@ -968,7 +972,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-right p {
     width: 75%;
     margin: 0;
@@ -981,7 +985,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin-bottom: 1rem;
   font-size: 2rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .middle-section .middle-content .galaxy-container .galaxy-content .galaxy-right h1 {
     font-size: 2.8rem;
     width: 75%;
@@ -1032,7 +1036,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .best-selling .content h1 {
     font-size: 2.8rem;
     margin-bottom: 1rem;
@@ -1049,7 +1053,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .bottom-section .bottom-content .best-selling .content button:hover {
   background: rgb(236, 236, 236);
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .best-selling .content button {
     width: 30%;
   }
@@ -1075,7 +1079,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   gap: 2rem;
   width: 100%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .phone-container .phone-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1092,7 +1096,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   width: 50%;
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .phone-container .phone-content .phone-col {
     width: 25%;
   }
@@ -1101,7 +1105,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   width: 100%;
   margin-bottom: 3rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .phone-container .phone-content .phone-col img {
     width: 30%;
   }
@@ -1115,7 +1119,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
     font-size: 1.2rem;
   }
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .phone-container .phone-content .phone-col h2 {
     font-size: 2rem;
   }
@@ -1130,7 +1134,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .bottom-section .bottom-content .phone-container .phone-content .phone-col button:hover {
   background: rgb(236, 236, 236);
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .phone-container .phone-content .phone-col button {
     font-size: 1.2rem;
   }
@@ -1166,7 +1170,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .razr-container .razr-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1177,7 +1181,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .bottom-section .bottom-content .razr-container .razr-content .razr-col {
   width: 100%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .razr-container .razr-content .razr-col {
     width: 50%;
   }
@@ -1186,10 +1190,10 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   text-align: center;
 }
 .bottom-section .bottom-content .razr-container .razr-content .razr-left img {
-  width: 100%;
+  width: 50%;
   margin-bottom: 2rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .razr-container .razr-content .razr-left img {
     width: 50%;
     margin-bottom: 0;
@@ -1198,7 +1202,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .bottom-section .bottom-content .razr-container .razr-content .razr-right {
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .razr-container .razr-content .razr-right {
     text-align: left;
   }
@@ -1210,7 +1214,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .razr-container .razr-content .razr-right h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -1222,7 +1226,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .razr-container .razr-content .razr-right p {
     width: 80%;
     margin: 0;
@@ -1268,7 +1272,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .go5g-container .go5g-content h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -1309,7 +1313,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   color: #fff;
   padding: 2rem 0;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .free-phone-container .free-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1320,7 +1324,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .bottom-section .bottom-content .free-phone-container .free-content .free-col {
   width: 100%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .free-phone-container .free-content .free-col {
     width: 50%;
   }
@@ -1328,15 +1332,15 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .bottom-section .bottom-content .free-phone-container .free-content .free-left {
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .free-phone-container .free-content .free-left {
     text-align: right;
   }
 }
 .bottom-section .bottom-content .free-phone-container .free-content .free-left img {
-  width: 100%;
+  width: 50%;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .free-phone-container .free-content .free-left img {
     width: 50%;
   }
@@ -1344,7 +1348,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 .bottom-section .bottom-content .free-phone-container .free-content .free-right {
   text-align: center;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .free-phone-container .free-content .free-right {
     text-align: left;
   }
@@ -1355,7 +1359,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .free-phone-container .free-content .free-right .title {
     font-size: 2.5rem;
     width: 80%;
@@ -1368,7 +1372,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-section .bottom-content .free-phone-container .free-content .free-right p {
     width: 80%;
     margin: 0;
@@ -1416,7 +1420,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   padding: 0 1rem 1rem 1rem;
   min-height: 80vh;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-2-section .container .bottom-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1429,7 +1433,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   min-height: 80vh;
   background: rgb(209, 38, 118);
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-2-section .container .bottom-content .bottom-col {
     width: 50%;
   }
@@ -1492,10 +1496,10 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   color: #fff;
 }
 .bottom-2-section .container .bottom-content .two-content-right img {
-  width: 100%;
+  width: 50%;
   margin-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   .bottom-2-section .container .bottom-content .two-content-right img {
     width: 50%;
   }
@@ -1551,7 +1555,7 @@ footer .footer-content .inner-content .inner-left {
           flex-direction: column;
   text-align: left;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   footer .footer-content .inner-content .inner-left {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1580,7 +1584,7 @@ footer .footer-content .inner-content .inner-left .icons {
           align-items: center;
   padding: 1rem 0;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   footer .footer-content .inner-content .inner-left .icons {
     padding: 0;
     display: -webkit-box;
@@ -1602,7 +1606,7 @@ footer .footer-content .inner-content .inner-left .icons a {
 footer .footer-content .inner-content .inner-left .icons a:hover {
   color: rgb(209, 38, 118);
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   footer .footer-content .inner-content .inner-left .icons a {
     padding: 0 1rem;
   }
@@ -1612,7 +1616,7 @@ footer .footer-content .inner-content .inner-left .inner-right a {
   text-decoration: none;
   padding-right: 2rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   footer .footer-content .inner-content .inner-left .inner-right a {
     padding-left: 2rem;
   }
@@ -1632,7 +1636,7 @@ footer .footer-content .bottom-inner-content {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   footer .footer-content .bottom-inner-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1653,7 +1657,7 @@ footer .footer-content .bottom-inner-content .inner-col ul li {
   list-style-type: none;
   padding-bottom: 1rem;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   footer .footer-content .bottom-inner-content .inner-col ul li {
     display: block;
   }
@@ -1690,7 +1694,7 @@ footer .footer-bottom .footer-bottom-content {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   footer .footer-bottom .footer-bottom-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1708,7 +1712,7 @@ footer .footer-bottom .footer-bottom-content .bottom-inner-content {
           flex-direction: column;
   padding: 1rem 0;
 }
-@media (min-width: 1445px) {
+@media (min-width: 1140px) {
   footer .footer-bottom .footer-bottom-content .bottom-inner-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

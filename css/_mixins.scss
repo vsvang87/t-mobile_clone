@@ -22,7 +22,12 @@
 
 /*----------------Media Query-------------*/
 @mixin media1445px {
-    @media (min-width: 1445px) {
+    @media (min-width: 1140px) {
+        @content;
+    }
+}
+@mixin media1550px {
+    @media (min-width: 1450px) {
         @content;
     }
 }

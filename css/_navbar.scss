@@ -7,7 +7,7 @@ header {
     .top-nav {
         background: $gray;
         display: none;
-        @include media1445px {
+        @include media1550px {
             display: block;
         }
         ul {
@@ -36,7 +36,7 @@ header {
                 @include spacebetween;
                 .left-link {
                    display: none;
-                    @include media1445px {
+                    @include media1550px {
                         display: inline;
                         @include spacebetween;
                     }
@@ -64,7 +64,7 @@ header {
                     width: 200px;
                     right: -2.6rem;
                     top: -0.5rem;
-                    @include media1445px {
+                    @include media1550px {
                         display: none;
                     }
                     a {
@@ -84,7 +84,7 @@ header {
                 }
                 .right-link {
                     display: none;
-                    @include media1445px {
+                    @include media1550px {
                         display: inline;
                         @include spacebetween;
                     }
