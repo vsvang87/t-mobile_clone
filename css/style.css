@@ -103,7 +103,7 @@ header nav .navbar-content .nav-right .mobile-nav {
           align-items: center;
   gap: 2rem;
   width: 200px;
-  right: -2.6rem;
+  right: -2.5rem;
   top: -0.5rem;
 }
 @media (min-width: 1450px) {
@@ -285,6 +285,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 }
 .section-top .bg-pink-container .bg-pink-content .bg-pink-right h1 {
   font-size: 2rem;
+  padding: 0 2rem;
   margin-bottom: 1rem;
   line-height: 2.3rem;
 }
@@ -292,6 +293,7 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
   .section-top .bg-pink-container .bg-pink-content .bg-pink-right h1 {
     line-height: normal;
     width: 85%;
+    padding: 0;
   }
 }
 .section-top .bg-pink-container .bg-pink-content .bg-pink-right p {
@@ -1116,12 +1118,12 @@ header nav .navbar-content .nav-right .right-link .account-btn:hover {
 }
 @media (min-width: 580px) {
   .bottom-section .bottom-content .phone-container .phone-content .phone-col h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media (min-width: 1140px) {
   .bottom-section .bottom-content .phone-container .phone-content .phone-col h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 .bottom-section .bottom-content .phone-container .phone-content .phone-col button {

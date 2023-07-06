@@ -71,11 +71,11 @@
                         font-size: 0.8rem;
                         margin-bottom: 1rem;
                         @include media580px {
-                            font-size: 1.2rem;
+                            font-size: 1rem;
                         }
 
                         @include media1445px {
-                            font-size: 2rem;
+                            font-size: 1rem;
                         }
                     }
                     button {

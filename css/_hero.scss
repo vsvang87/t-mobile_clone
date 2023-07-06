@@ -78,11 +78,13 @@
                 }
                 h1 {
                     font-size: 2rem;
+                    padding: 0 2rem;
                     margin-bottom: 1rem;
                     line-height: 2.3rem;
                     @include media1445px {
                         line-height: normal;
                         width: 85%;
+                        padding: 0;
                     }
                 }
                 p {
